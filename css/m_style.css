@@ -1,0 +1,176 @@
+@media (max-width:600px) {
+    .pc { display: none !important; }
+
+    header .mobtit { display: inline-block; margin-top: 10px; margin-left: 16px; }
+    header .moblogo { width: 70px; height: 30px;}
+
+    header .mobgnb { position: absolute; top: 17px; right: 17px; height: 25px; line-height: 5px; }
+    header .mobgnb > li { float: left; margin-right: 25px; }
+    header .mobgnb > li:last-of-type { margin-right: 0; }
+    header .moblang { display: none; width: 70px; height: 192px; background: #fff; color: #000; border-radius: 8px; position: absolute; right: 75px; top: 40px; }
+    header .moblang li { text-align: center; width: 66px; height: 60px; margin-left: 2px; margin-top: 3px; line-height: 60px; }
+    header .mobsh { border: none; background: none; }
+    header .mobmn { border: none; background: none; color: #fff; font-size: 24px; }
+    
+    header .mobgnb > li .search { display: none; width: 295%; height: 120px; background: #fff; position: absolute; left: -221px; top: -17px; cursor: auto; }
+    header .mobgnb > li .submit { border: none; position: absolute; left: 15px; top: 55px; background: #fff; cursor: pointer; }
+    header .mobgnb > li .submit img { width: 24px; height: 24px; }
+    header .mobgnb > li #search { width: 300px; height: 25px; border: 2px solid #000; margin-left: 40px; margin-top: 55px; border-radius: 5px; font-size: 18px; }
+    header .mobgnb > li .search .close { background: #fff; font-size: 24px; border: none; cursor: pointer; position: absolute; left: 320px; top: 25px; }
+
+    header .hide { width: 360px; height: 740px; background: #fff; display: none; position: absolute; left: -181%; top: -67%; color: #05141f; overflow-y: scroll; }
+    header .hide .mobsh { background: #fff; font-size: 24px; border: none; cursor: pointer; position: absolute; left: 15px; top: 20px; }
+    header .hide .mobsh img { width: 24px; }
+    header .hide .close { background: #fff; font-size: 24px; border: none; cursor: pointer; position: absolute; right: 15px; top: 20px; }
+    header .hide i { margin-left: 8px; }
+
+    header .mognb { height: 535px; margin-top: 105px; }
+    header .mognb > li { width: 100%; display: flex; align-items: flex-start; justify-content: left; margin-bottom: 40px; margin-left: 15px; font-size: 20px; font-weight: bold; position: relative; }
+    header .mognb .tbm { margin-bottom: 13px;  }
+    header .mognb > li span { width: 300px; }
+    header .mognb > li div { width: 100%; display: inline-block; margin-left: -300px; margin-top: 40px; }
+
+    header .mb-menu { display: none; background: #f8f8f8; width: 100%; margin-left: -15px; line-height: 5; }
+    header .mb-menu > li { font-size: 16px; font-weight: normal; margin-bottom: -35px; margin-left: 15px; }
+    header .mb-smenu { display: none; background: #f8f8f8; width: 100%; }
+    header .log { height: 100px; background: #05141f; color: #fff; text-align: center; line-height: 100px; font-size: 14px; }
+    header .logbar { background: #d2d2d2; width: 1px; height: 1pc; margin: 0 35px; display: inline-block; vertical-align: middle; }
+
+    header .hslide { height: 740px; }
+    header .hslide li { height: 740px; }
+    header .hslide li img { width: 360px; height: 740px; }
+    header .hslide li p { position: relative; left: 250px; bottom: 230px; color: #fff; opacity: 0; font-size: 13px; }
+    header .hslide li .mbm { position: relative; left: 250px; bottom: 254px; }
+    header .hslide li h1 { position: relative; left: 250px; bottom: 215px; color: #fff; opacity: 0; font-size: 32px; }
+    header .hslide li .bm { position: relative; left: 250px; bottom:245px; }
+    header .hslide li .lh { line-height: 1.5; }
+    header .hslide li .moba .bom { position: absolute; bottom: 75px; }
+    header .hslide li a .btn1 { line-height: 40px; padding: 0 25px; position: absolute; left: 20px; bottom: 90px; }
+    header .hslide li .moba .mb2 { font-size: 12px; position: absolute; left: 177px; bottom: 75px; }
+    header .hslide li a .btn2 { line-height: 41px; padding: 0 25px; position: absolute; left: 147px; bottom: 90px; }
+    header .hslide li:last-child a .btn2 { left: 220px; }
+
+    header .page { position: absolute; left: 30%; bottom: 35px; }
+    header .page li { width: 8px; height: 8px; margin: 0 4px; }
+
+    header .hslide .ai { position: fixed; right: 17px; bottom: 3%; }
+    header .hslide .ai img { position: fixed; right: -1.5px; bottom: -0.6%; }
+
+    #cont1 .wrap { height: 800px; }
+
+    #cont1 .bar { margin-top: 65px; width: 100%; }
+    #cont1 h2 { margin-left: 36.5%; font-size: 26px; }
+    #cont1 .nbar { margin-left: 5%; margin-top: 35px; font-size: 16px; }
+    #cont1 .nbar li { margin-right: 30px; font-weight: 15px; }
+    #cont1 .nbar li:last-of-type { margin-right: 0; }
+    
+    #cont1 .cslide-mb { width: 100%; height: 620px; position: relative; }
+    #cont1 .cs:nth-of-type(2) { display: none; }
+    #cont1 .cs:nth-of-type(3) { display: none; }
+    #cont1 .cs:nth-of-type(4) { display: none; }
+    #cont1 .cslide-mb .btby { width: 500%; }
+
+    #cont1 .cslide-mb .btby > li { width: 20%; height: 860px; border-radius: none; border: none; margin-top: 10px; margin-right: 0; float: left; }
+
+    #cont1 .cslide-mb img { width: 240px; margin-top: 30px; margin-left: 14%; }
+    #cont1 .cslide-mb h3 { margin-top: 45px; font-size: 25px; font-weight: 500; padding: 0 8%; }
+    #cont1 .info { height: 452px; border-bottom: 1px solid #ddd; padding: 0 0; position: relative; }
+    #cont1 .cslide-mb li span { margin: 0 4.5pt; }
+    #cont1 .de { margin-top: 17px; font-size: 14px; word-break: unset; padding: 0 5%; text-align: center; color: #666; }
+    #cont1 .top { width: 60px; height: 23px; position: absolute; top: 2px; right: 30px; border-radius: 23px; line-height: 23px; font-size: 13px; }
+
+    #cont1 .list li { margin-bottom: 8px; }
+    #cont1 .list_tit { font-size: 14px; }
+    #cont1 .list_txt { font-size: 14px; }
+    #cont1 .prise { margin-right: 0; margin-top: 24px; font-size: 22px; font-weight: 600; color: #05141f; }
+
+    #cont1 .cslide-mb .btn1 { border: none; cursor: pointer; line-height: 38px; padding: 0 50px; background: #fff; color: #05141f; border: 1px solid #666; margin-top: 35px; margin-left: 0; font-size: 12px; font-weight: bold; }
+    #cont1 .cslide-mb .btn2 { border: none; cursor: pointer; line-height: 38px; padding: 0 53px; background: #05141f; color: #fff; margin-top: 35px; margin-left: 12px; font-size: 12px; }
+
+    #cont1 .cbt { height: 160px; }
+    #cont1 .bt { text-align: center; margin-top: 34px; position: absolute; font-size: 14px; text-align: left; color: #777; line-height: 1.8; }
+    #cont1 .best-page { margin-top: 115px; margin-left: 37%; display: flex; align-items: center; justify-content: center; position: absolute; }
+    #cont1 .best-page li { width: 8px; height: 8px; background: none; margin: 0 4px; text-indent: -30px; overflow: hidden; cursor: pointer; border-radius: 10px; 
+    border: 1px solid #05141f;}
+    #cont1 .best-page li.select { background: #05141f; width: 10px; height: 10px; }
+
+    #cont2 { margin-top: 42px; margin-bottom: 63px; }
+
+    #cont2 a { display: inline-block; margin-right: 22px; }
+    #cont2 a:nth-of-type(4) { margin-right: 0;}
+
+    #cont2 .qmenu { width: 318px; height: 142px; background: #f8f8f8; float: left; color: #05141f; margin-bottom: 10px; }
+    #cont2 .qmenu:hover { background: #05141f; color: #f8f8f8; transition: 0.3s; }
+    #cont2 .qmenu img { width: 32px; height: 32px; margin-left: 17px; margin-top: 15px; }
+    #cont2 .qmenu h4 { margin-left: 17px; margin-top: 10px; font-size: 14px; font-weight: 500; }
+    #cont2 .qmenu .more { margin-left: 225px; margin-top: 25px; color: #05141f;  }
+    #cont2 .qmenu .more span { font-size: 12px; font-weight: bold; color: #05141f; }
+    #cont2 .qmenu .more i { font-size: 12px; transition: 1s; }
+
+    #news { margin-bottom: 124px;}
+    #news h5 { margin-bottom: 46px; font-size: 25px; text-align: center; }
+    #news .ntxt { width: 120%; height: 220px; background: #697278; color: #fff; float: left; }
+    #news .img { float: right; }
+    #news .img img { width: 100%; height: 300px; }
+    #news .wrap { width: 100%; }
+
+    #news .ntxt .sub { margin-left: 15px; margin-top: 35px; font-size: 13px; font-weight: bold; }
+    #news .ntxt .mtitle { margin-left: 15px; margin-top: 20px; font-size: 15px; font-weight: bold; }
+    #news .ntxt button { border: none; cursor: pointer; line-height: 40px; padding: 0 25px; background: #fff; color: #05141f; font-weight: 400;
+    margin-left: 15px; margin-top: 50px; }
+
+    #news .nlist { margin-top: 45px; display: block; }
+    #news .nlist li { float: left; margin-left: 15px; margin-right: 35px; margin-bottom: 40px; }
+    #news .nlist li:last-of-type { margin-right: 0; margin-bottom: 0; }
+    #news .nlist li h6 { font-size: 14px; color: #777; }
+    #news .nlist li p { color: #05141f; font-size: 16px; font-weight: bold; line-height: 27px; margin-top: 20px; }
+
+    footer .fwrap { max-width: 1780px; margin: 0 auto; }
+    footer .ft1 { background: #05141f; height: 490px; }
+    footer .ft2 { background: #05141f; height: 235px; }
+
+    footer .flogo { width: 80px; padding-top: 35px; display: block; margin-left: 15px; }
+    footer .fm1 { height: 260px; }
+    footer .fm2 { height: 70px; margin-top: 45px; }
+
+    footer .fgnb { display: inline-block; color: #fff; font-weight: normal; margin-top: 55px; }
+    footer .fgnb li { margin-bottom: 30px; margin-left: 15px; font-size: 14px; }
+    footer .home { border: none; background: #05141f; color: #f8f8f8; cursor: pointer; font-size: 17px; margin-top: 5px; margin-left: 15px; margin-bottom: 20px; font-weight: 400;   }
+
+    footer .left2 { display: block; width: 100%; }
+    footer .right2 { color: #fff; position: relative; width: 100%; }
+
+    footer .right2 button { background: #05141f; color: #fff; border: none; padding: 15px 15px 10px 15px; cursor: pointer; border-top: 1px solid #444; border-bottom: 1px solid #444; width: 100%; }
+    footer .right2 button i { float: right; font-size: 22px; }
+    footer .right2 button span { font-size: 15px; float: left; }
+    footer .fmsite { display: none; width: 326px; height: 268px; background: #fff; position: absolute; right: 15px; bottom: 47px; border: none; overflow-y: scroll; border-radius: 5px; }
+    footer .fmsite li { margin-left: 25px; margin-top: 20px; margin-bottom: 20px; font-size: 16px; color: #05141f; }
+    footer .snsb { display: none; width: 326px; height: 245px; background: #fff; position: absolute; right: 15px; bottom: 97px; border-bottom: none; border-radius: 5px; }
+    footer .snsb li { color: #000; margin-left: 25px; margin-top: 20px; margin-bottom: 28px; }
+    footer .snsb li:last-of-type { margin-top: 0; margin-bottom: 30px; }
+
+    footer .info { margin-top: 40px; }
+    footer .info li { float: left; margin-right: 25px; margin-bottom: 25px; font-size: 12px; }
+    footer .info li:first-of-type { margin-left: 70px; }
+    footer .info li:nth-of-type(3) { margin-left: 15px; }
+    footer .info li:last-of-type { margin-right: 0; }
+
+    footer .corp { text-align: center; margin-top: 5px; }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:801px) {
+    .mob { display: none !important; }
+}
